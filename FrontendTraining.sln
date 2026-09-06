@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontendTraining.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontendTraining.Domain.Tests", "FrontendTraining.Domain.Tests\FrontendTraining.Domain.Tests.csproj", "{1D0BF17B-C791-42F5-938D-3F3B6CA04075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontendTraining.Application.Tests", "FrontendTraining.Application.Tests\FrontendTraining.Application.Tests.csproj", "{17864ADB-D876-4E97-B35C-00F2381597CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{1D0BF17B-C791-42F5-938D-3F3B6CA04075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D0BF17B-C791-42F5-938D-3F3B6CA04075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D0BF17B-C791-42F5-938D-3F3B6CA04075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17864ADB-D876-4E97-B35C-00F2381597CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17864ADB-D876-4E97-B35C-00F2381597CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17864ADB-D876-4E97-B35C-00F2381597CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17864ADB-D876-4E97-B35C-00F2381597CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

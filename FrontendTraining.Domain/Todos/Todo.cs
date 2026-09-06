@@ -17,6 +17,21 @@ public class Todo
         Status = TodoStatus.InProgress;
         CreatedAt = DateTime.UtcNow;
     }
+    private Todo(
+        Guid id,
+        string title,
+        TodoStatus status,
+        DateTime createdAt,
+        DateTime? updatedAt)
+    {
+        ValidateTitle(title);
+
+        Id = id;
+        Title = title;
+        Status = status;
+        CreatedAt = createdAt;
+        UpdatedAt = updatedAt;
+    }
 
     public void UpdateTitle(string title)
     {
@@ -47,6 +62,23 @@ public class Todo
                 "Todo title must be between 2 and 64 characters.",
                 nameof(title));
         }
+        
+        
+    }
+    
+    public static Todo Rehydrate(
+        Guid id,
+        string title,
+        TodoStatus status,
+        DateTime createdAt,
+        DateTime? updatedAt)
+    {
+        return new Todo(
+            id,
+            title,
+            status,
+            createdAt,
+            updatedAt);
     }
 }
 

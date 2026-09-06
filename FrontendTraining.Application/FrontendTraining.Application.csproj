@@ -10,8 +10,4 @@
       <ProjectReference Include="..\FrontendTraining.Domain\FrontendTraining.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Todos\CreateTodo\" />
-    </ItemGroup>
-
 </Project>
